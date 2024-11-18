@@ -9,7 +9,7 @@ import { getMessage } from '@/services/axios.js'
 export default {
   data() {
     return {
-      message: {},
+      message: { text: '' },
       error: null
     }
   },

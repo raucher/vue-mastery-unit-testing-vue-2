@@ -8,8 +8,9 @@
 export default {
   data() {
     return {
-      loggedIn: false
-    };
+      loggedIn: false,
+      hello: 'world'
+    }
   }
-};
+}
 </script>
